@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Source Sans Pro";
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.home {
+    /* border : solid 1px black; */
+    padding-top: 10px;
+    margin: 0 200px;
+    height: 900px;
+    background-image: url(asset/Group.png);
+    background-position: right top;
+    background-repeat: no-repeat;
+}
+
+.navbar {
+    /* border : solid 1px black; */
+    margin: 50px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.menukanan {
+    display: flex;
+    
+}
+
+.menukanan div {
+    margin: 0 15px;
+    /* border : solid 1px black; */
+    
+}
+
+.menukanan span {
+    /* border : solid 1px black; */
+    font-weight: 900;
+    margin: 0 100px 0 20px;
+    color: #101C45;
+    
+}
+
+.aktif {
+    color: #101C45;
+    font-weight: 600;
+}
+
+.menukiri {
+    display: flex;
+    
+}
+
+.menukiri div {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    
+}
+
+.button {
+    border : solid 2px black;
+    padding: 5px 15px;
+    margin: 0 0 0 30px;
+}
+
+.hero  {
+    display: flex;
+}
+
+.caption {
+    /* border : solid 1px black; */
+    margin: 100px 0 0 50px;
+    width: 33%;
+}
+
+.caption div {
+    /* border : solid 1px black; */
+    font-family: "DM Sans";
+    color: #101C45;
+    font-size: 48px;
+    font-weight: 500;
+}
+
+.caption p {
+    /* border : solid 1px black; */
+    font-family: "DM Sans";
+    font-weight: 500;
+    color: #101C45;
+    font-size: 16px;
+    line-height: 2;
+    margin-top: 10px;
+}
+
+.caption button {
+    border: none;
+    background-color: #203271;
+    color: white;
+    padding: 15px 25px;
+    margin-top: 50px;
+}
+
+.twit {
+    width: 292px;
+    height: 182px;
+    margin: 50px 0 0 150px;
+    background-color: white;
+    border-radius: 10px;  
+    box-shadow:  0 6px 20px 0 rgba(109, 105, 105, 0.603);
+    padding: 20px;
+}
+
+.kotak {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.profil {
+    display: flex;
+}
+
+.profil div {
+    margin-left: 10px;
+    font-weight: 500;
+}
+
+.pesan {
+    /* border : solid 1px black; */
+    margin-top: 5px;
+    font-size: 13px;
+    color: #101C45;
+    line-height: 1.8;
+}
+
+.footer {
+    /* border : solid 1px black; */
+    padding: 15px;
+    margin: 150px 50px;
+    background-color: #203271;
+}
+
+.content {
+    margin: 40px;
+    /* border : solid 1px black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.content img {
+    width: 40px;
+    height: 40px;
+    margin-right: 30px;
+}
+
+.isi span {
+    font-family: "DM Sans";
+    font-size: 18px;
+    color: white;
+    font-weight: 600;
+}
+
+.isi p {
+    margin-top: 10px;
+    font-family: "DM Sans";
+    font-size: 16px;
+    color: white;
+    font-weight: 400;
+}
+
+.box {
+    display: flex;
+    /* border : solid 1px black; */
+    width: 30%;
+}
