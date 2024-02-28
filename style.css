@@ -100,7 +100,7 @@
 
 .caption button {
     border: none;
-    background-color: #aae013;
+    background-color: #203271;
     color: white;
     padding: 15px 25px;
     margin-top: 50px;
@@ -109,7 +109,7 @@
 .twit {
     width: 292px;
     height: 182px;
-    margin: 50px 0 0 50px;
+    margin: 50px 0 0 0px;
     background-color: white;
     border-radius: 10px;  
     box-shadow:  0 6px 20px 0 rgba(109, 105, 105, 0.603);
